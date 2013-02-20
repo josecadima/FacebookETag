@@ -1,0 +1,10 @@
+﻿<Window x:Class="FacebookOptimization.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Facebook Friends" Height="350" Width="525"
+        xmlns:views="clr-namespace:FacebookOptimization.Views"
+        Loaded="Window_Loaded">
+    <DockPanel>
+        <views:FriendsView x:Name="friendsView"/>
+    </DockPanel>    
+</Window>
